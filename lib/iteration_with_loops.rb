@@ -6,7 +6,7 @@ row_index = 0
 while row_index < join_nested_strings.count do
   element_index = 0
   while element_index < join_nested_strings[row_index].count do
-    total += join_nested_strings[mixed_data_1][mixed_data_2]
+    total += join_nested_strings[row_index][element_index]
     element_index += 1
   end
   row_index += 1
