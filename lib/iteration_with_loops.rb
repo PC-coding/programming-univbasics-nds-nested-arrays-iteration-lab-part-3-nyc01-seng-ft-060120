@@ -13,6 +13,6 @@ while row_index < src.count do
     element_index += 1
   end
   row_index += 1
-end
-concat_string
+  end
+  concat_string
 end
